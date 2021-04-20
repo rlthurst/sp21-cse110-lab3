@@ -1,1 +1,1 @@
-https://rlthurst.github.io/Lab2/
+https://rlthurst.github.io/sp21-cse110-lab3/

@@ -1,0 +1,50 @@
+/* makes button big */
+button {
+    height: 100%;
+   width: 92vw;
+}
+
+button:hover {
+    color: hsl(10,99,25);
+    color: #FFA500;
+}
+
+.NAV {
+    border: 2px solid black;
+    text-align: center;
+
+}
+ul > li {
+    display:inline-block;
+    *display:inline;
+}
+
+#secret:not(:hover), #secret:not(:hover) * {
+    color: transparent
+}
+#secret:not(:hover) * {
+    background: transparent
+}
+
+section {
+    padding-left: 0.2cm;
+    padding-right: 0.2cm;
+    margin: 0cm 0.5cm 0cm 0.5cm;
+    background-color: beige;
+}
+
+html footer{
+    font-family: 'Roboto', sans-serif; 
+    display: block;
+}
+
+main ~ hr {
+position: static;
+margin-top: 3vmax;
+margin-bottom:3vmax;
+}
+
+figure + img {
+    position:absolute;
+    display: none;
+}
