@@ -45,16 +45,19 @@ margin-top: 3vmax;
 margin-bottom:3vmax;
 }
 
-figure + img {
-    position:absolute;
-    display: none;
+figcaption + img {
+    width: 100%;
 }
 select[id] {
     font-style: italic;
 }
 *#journalentry {
+    position: relative;
     width: 100%;
     margin: 8px 0;
     box-sizing: border-box;
     resize: none;
+}
+@media screen and ( max-width: 750px ) {
+    video.media { width: 100%; }
 }
