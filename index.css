@@ -29,8 +29,9 @@ ul > li {
 section {
     padding-left: 0.2cm;
     padding-right: 0.2cm;
-    margin: 0cm 0.5cm 0cm 0.5cm;
+    margin: 0.5cm 0.5cm 0.5cm 0.5cm;
     background-color: beige;
+    border: 2px solid black;
 }
 
 html footer{
@@ -47,4 +48,13 @@ margin-bottom:3vmax;
 figure + img {
     position:absolute;
     display: none;
+}
+select[id] {
+    font-style: italic;
+}
+*#journalentry {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    resize: none;
 }
